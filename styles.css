@@ -48,6 +48,9 @@ table {
 }
 
 /* My CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body {
   width: 800px;
   margin: auto;
@@ -87,8 +90,21 @@ header p {
 
 article {
   text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  padding-bottom: 15px;
 }
 
 p {
   padding: 5px 25px;
+}
+
+footer {
+  height: 40px;
+  padding-top: 25px;
+  padding-right: 10px;
+  text-align: right;
+  font-family: monospace;
+  color: #776;
+  background-color: #DDE;
 }
