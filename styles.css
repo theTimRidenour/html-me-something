@@ -51,30 +51,44 @@ table {
 body {
   width: 800px;
   margin: auto;
+  background-color: #888;
+}
+
+#page_border {
+  background-color: #EEE;
 }
 
 img {
   width: 750px;
   height: auto;
-  padding: 25px 10px;
+  margin: 10px 24px;
+  border: 2px solid #000;
+  border-radius: 15px;
 }
 
 header {
   background-image: url(./images/vidcon_exterior.jpg);
   background-position: left;
   opacity: 90;
-  height: 350px;
+  height: 90px;
   font-family: Garamond, serif;
   font-size: 46px;
   font-weight: bolder;
-  color: #FFC7FF;
-  text-shadow: 5px 5px #334;
+  color: #363EFF;
+  text-shadow: 3px 2px #AAA;
+  text-align: center;
+  padding: 130px 0px;
 }
 
-header span {
-  font-family: Palatino, Garamond, Serif;
-  font-size: 0.3em;
-  color: 333;
-  text-shadow: none;
-  align-content: space-around;
+header p {
+  background-color: #FFF;
+  opacity: 35%;
+}
+
+article {
+  text-align: justify;
+}
+
+p {
+  padding: 5px 25px;
 }
